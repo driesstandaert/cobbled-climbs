@@ -40,7 +40,7 @@ class Header extends React.Component {
                     <option value='peugeot' >Peugeot</option>
                     <option value='brooklyn' >Brooklyn</option>
                 </select>
-                <a className="c-header__link" href="/">View on Github</a>
+                <a className="c-header__link" href="https://github.com/driesstandaert/cobbled-climbs">View on Github</a>
             </header>
         )
     }
