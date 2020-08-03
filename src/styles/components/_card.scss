@@ -1,0 +1,38 @@
+.c-card__title {
+  font-size: 4rem;
+  font-weight: 400;
+  > a {
+    color: var(--color-alpha);
+    text-decoration: none;
+  }
+}
+
+.c-card__img {
+  margin: 0 0 2rem;
+}
+
+.c-card__link {
+  display: block;
+  text-decoration: none;
+  padding: 2rem;
+  transition: background .3s ease;
+
+  @include mq(bp3) {
+    padding: 6rem ;
+  }
+
+  &:hover {
+    background: rgba(var(--color-alpha-rgb),.1);
+    transition: background .3s ease;
+  }
+}
+
+.c-card__intro {
+  color: var(--color-alpha);
+  padding: 2rem;
+
+  @include mq(bp3) {
+    padding: 6rem ;
+  } 
+}
+

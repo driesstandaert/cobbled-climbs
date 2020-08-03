@@ -1,0 +1,80 @@
+.c-fiche {
+    flex-grow: 1;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 2rem;
+}
+
+.c-fiche__title {
+    color: var(--color-alpha);
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0 0 3rem;
+    overflow-wrap: break-word;
+
+    @include mq(bp2) {
+        font-size: 7rem;
+    }
+}
+
+.c-fiche__list {
+    color: var(--color-alpha);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0 0 3rem;
+
+    .c-card & {
+        margin: 0 0 2rem;
+        justify-content: unset;
+    }
+}
+
+.c-fiche__list + .c-fiche__list {
+    margin: 0;
+}
+
+.c-fiche__listitem {
+    list-style-type: none;
+    position: relative;
+    margin: 0 1rem 0 0;
+
+    &--icon {
+        padding-left: 20px
+    }
+
+    @include mq(bp2) {
+        margin: 0 1.6rem;
+
+        &:first-child {
+            margin: 0 1.6rem 0 0;
+
+            .c-card & {
+                margin: 0 1rem 0 0;
+            }
+        }
+
+        &:last-child {
+            margin: 0 0 0 1.6rem;
+
+            .c-card & {
+                margin: 0 0 0 1rem;
+            }
+        }
+
+        .c-card & {
+            margin: 0 1rem;
+        }
+    }
+}
+
+.c-fiche__desc {
+    color: var(--color-alpha);
+}
+
+

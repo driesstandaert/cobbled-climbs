@@ -1,0 +1,17 @@
+.c-header {
+    margin: 2rem;
+}
+
+.c-header__link {
+    color: var(--color-alpha);
+    text-decoration: none;
+
+    @include mq(bp2) {
+        margin-left: 2rem;
+        border-bottom: 1px solid rgba(var(--color-alpha-rgb), .5);
+    }
+
+    &:hover {
+        border-bottom: 1px solid rgba(var(--color-alpha-rgb), 1);
+    }
+}

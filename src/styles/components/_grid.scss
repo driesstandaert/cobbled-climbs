@@ -1,0 +1,10 @@
+.c-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-gap: 0rem;
+    align-items: stretch;
+
+    @include mq(bp2) {
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    }
+}

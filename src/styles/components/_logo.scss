@@ -1,0 +1,17 @@
+.c-logo {
+    color: var(--color-alpha);
+    border: 1px solid rgba(var(--color-alpha-rgb), 1);
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    padding: 1rem;
+    text-decoration: none;
+
+    @include mq(bp3) {
+        border: 1px solid rgba(var(--color-alpha-rgb), .5);
+        margin: 0 1rem 0 0;
+    }
+
+    &:hover {
+        border: 1px solid rgba(var(--color-alpha-rgb), 1);
+    }
+}

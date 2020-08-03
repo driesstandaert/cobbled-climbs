@@ -1,0 +1,70 @@
+.c-profile {
+    position: relative;
+}
+
+.c-profile__svg {
+    display: block;
+    filter: drop-shadow(0 -20px 10px rgba(0, 0, 0, 0.2));
+}
+
+.c-profile__path {
+    stroke-width: 0;
+    fill: var(--color-gamma);
+    box-shadow: 0px -10px 30px 0px rgba(0,0,0,0.75);
+}
+
+.c-profile__shadow-path {
+    stroke-width: 0;
+    fill: var(--color-shadow);
+}
+
+.c-profile__elev {
+    fill: var(--color-zeta);
+}
+
+.c-profile__label {
+    color: var(--color-alpha);
+    position: absolute;
+    bottom: 0rem;
+    left: 0;
+    font-size: 1.6rem;
+    
+    &--start {
+        background-color: white;
+        text-align: left;
+        color: black;
+        padding: 1rem;
+    }
+
+    &--end {
+        background-color: white;
+        bottom: auto;
+        left: auto;
+        right: 0;
+        top: -5rem;
+        text-align: right;
+        color: black;
+        padding: 1rem;
+    }
+
+    &--active {
+        text-align: center;
+        height: 2.0rem;
+        padding-left: 2.0rem;
+    }
+}
+
+.c-profile__point {
+    fill: #fff;
+    stroke-width: 0;
+    opacity: 1; 
+    padding: 10px;
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.c-profile__line {
+    stroke-width: 1px;
+}

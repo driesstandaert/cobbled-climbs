@@ -1,0 +1,124 @@
+// THEMES
+
+// Default - RALEIGH PANASONIC
+html,
+html[data-theme="raleigh-panasonic"] {
+    --color-alpha: white;
+    --color-alpha-rgb: 255,255,255;
+    --color-beta: Black;
+    --color-sedondary-rgb: 0,0,0;
+
+    --color-gamma: #D9292B;
+    --color-delta: #014671; 
+    --color-epsilon: #005387; //Ral5005 - Signal Blue
+    --color-zeta: #F3BA2B;
+
+    --color-shadow: rgba(0,0,0,.1);
+
+    --bg: linear-gradient(var(--color-epsilon), var(--color-delta)) fixed;
+    --bg-size: auto;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+// MOLTENI
+html[data-theme="molteni"] {
+    --color-alpha: Black;
+    --color-alpha-rgb: 0,0,0;
+    --color-beta: white;
+    --color-beta-rgb: 255,255,255;
+
+    --color-gamma: #E87B1E;
+    --color-delta: #FEF6E3;
+    --color-epsilon: #FEF6E3;
+    --color-zeta: #000;
+
+    --color-shadow: rgba(0,0,0,.1);
+
+    --bg: linear-gradient(var(--color-epsilon), var(--color-delta)) fixed;
+    --bg-size: auto;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+// MAPEI
+html[data-theme="mapei"] {
+    --color-alpha: white;
+    --color-alpha-rgb: 255,255,255;
+    --color-beta: Black;
+    --color-sedondary-rgb: 0,0,0;
+
+    --color-gamma: #80B1EC;
+    --color-delta: #26204E;
+    --color-epsilon: #26204E;
+    --color-zeta: #fff;
+
+    --color-shadow:rgba(255,255,255,.1);
+
+    --bg: url('/images/svg/bg-mapei.svg') no-repeat right top, var(--color-epsilon);
+    --bg-size: 30%;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+
+// FAEMA
+html[data-theme="faema"] {
+    --color-alpha: Black;
+    --color-alpha-rgb: 0,0,0;
+    --color-beta: white;
+    --color-beta-rgb: 255,255,255;
+
+    --color-gamma: #ED1B24;
+    --color-delta: white;
+    --color-epsilon: white;
+    --color-zeta: #000;
+
+    --color-shadow: rgba(0,0,0,.1);
+
+    --bg: linear-gradient(var(--color-epsilon), var(--color-delta)) fixed;
+    --bg-size: auto;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+// PEUGEOT
+html[data-theme="peugeot"] {
+    --color-alpha: Black;
+    --color-alpha-rgb: 0,0,0;
+    --color-beta: white;
+    --color-beta-rgb: 255,255,255;
+
+    --color-gamma: #000;
+    --color-delta: white;
+    --color-epsilon: white;
+    --color-zeta: #000;
+
+    --color-shadow:rgba(255,255,255,.1);
+
+    --bg: linear-gradient(var(--color-epsilon), var(--color-delta)) fixed;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+// BROOKLYN
+html[data-theme="brooklyn"] {
+    --color-alpha: white;
+    --color-alpha-rgb: 255,255,255;
+    --color-beta: Black;
+    --color-sedondary-rgb: 0,0,0;
+
+    --color-gamma: #fff;
+    --color-delta: #414EA8; 
+    --color-epsilon: #202966;
+    --color-zeta: rgba(0,0,0,.1);
+
+    --color-shadow: #DD122D;
+
+    --bg: linear-gradient(var(--color-epsilon), var(--color-delta)) fixed;
+    --bg-size: auto;
+    --icon-select: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%23ffffff%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+}
+
+// Spacing
+$s-size: 1.2rem;
+$m-size: 1.6rem;
+$l-size: 3.2rem;
+$xl-size: 4.8rem;
+$desktop-breakpoint: 45rem;
+

@@ -1,0 +1,23 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    font-size: $m-size;
+    background: var(--bg);
+    background-size: var(--bg-size);
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+p {
+    line-height: 2rem;
+}
+
