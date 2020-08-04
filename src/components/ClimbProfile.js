@@ -49,7 +49,7 @@ class ClimbProfile extends Component {
       pathD += `L ${svgWidth} ${svgHeight}` // End path in bottom right corner  
       
       return (
-        <path className="c-profile__path" d={pathD} id="svg-helling" />
+        <path className="c-profile__path" d={pathD} />
       );
     }
 

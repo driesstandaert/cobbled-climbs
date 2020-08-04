@@ -18,9 +18,9 @@ class ClimbPage extends React.Component {
         this.props.selectClimb(this.history.location.pathname.substring(1));
     }
     render () {
-      const data = this.props.data
-      const climbContent = data.map((item) => 
-        (this.props.filters.idName === item.idName) 
+        const data = this.props.data
+        const climbContent = data.map((item) => 
+            (this.props.filters.idName === item.idName) 
         ?
             <main key={item.id} className="c-main">
                 <div className="c-fiche">
@@ -38,7 +38,7 @@ class ClimbPage extends React.Component {
         </div>
       ) 
     }
-  }
+}
 
 const mapStateToProps = (state) => ({
     filters: state.filters

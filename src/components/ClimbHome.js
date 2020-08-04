@@ -18,8 +18,7 @@ class ClimbHome extends React.Component {
         this.props.selectClimb(this.history.location.pathname.substring(1));
     }
     render () {
-      const data = this.props.data
-      
+      const data = this.props.data    
       const climbs = data.map((item) => 
           <div className="c-grid__item c-card" key={item.id}>
             <Link to={item.idName} className="c-card__link">
