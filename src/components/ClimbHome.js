@@ -53,8 +53,8 @@ class ClimbHome extends React.Component {
                         Als een relikwie in een heuvellandschap gesmeten om menig wielrenner van nederigheid te dienen.
                         Dit is een kleine verzameling van enkele bekende hellingen en de gegevens die hen zo uniek maken.
                         </p> */}
-                        <p>Often spread out on top of a hilly countryside and by many cyclists perceived as relics to teach them about humility.
-                        Some tremble at the idea of trying to subdue them, others see an opportunity to claim a personal victory.
+                        <p>These particular "hellingen" or "bergs" are often spread out on top of a hilly countryside and by many cyclists perceived as relics that teach you about humility.
+                        Some tremble at the idea of trying to subdue them, others take the opportunity to claim a personal victory.
                         </p>
                         <p>Enjoy this collection of some famous cobbled climbs and the data that makes them so unique.</p>
                     </div>
