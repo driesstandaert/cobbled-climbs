@@ -134,8 +134,7 @@
       {"x": 7, "y": 60}
     
   ]
-  }
-  ,
+  },
   {
   "id": 7,
   "idName": "kemmelberg",
@@ -160,5 +159,54 @@
       {"x": 9, "y": 152, "elev": 1.0},
       {"x": 10, "y": 153}
   ]
-  }
+  },
+  {
+    "id": 8,
+    "idName": "bosberg",
+    "name": "Bosberg",
+    "country": "be",
+    "length": 1350,
+    "maxElevation": 11.7,
+    "avgElevation": 5.8,
+    "descNl": "Is aansluitend aan de Muur van Geraardsbergen en was lang de laatste beklimming van de Ronde van Vlaanderen.",
+    "descEn": "Subsequently to the 'Muur' and for a long time it was the last climb in the Ronde van Vlaanderen.",
+    "coordinates":
+    [
+        {"x": 0, "y": 38, "elev": 2.0},
+        {"x": 1, "y": 40, "elev": 3.0},
+        {"x": 2, "y": 43, "elev": 3.0},
+        {"x": 3, "y": 46, "elev": 3.0},
+        {"x": 4, "y": 49, "elev": 4.0},
+        {"x": 5, "y": 53, "elev": 3.0},
+        {"x": 6, "y": 56, "elev": 3.0},
+        {"x": 7, "y": 59, "elev": 3.0},
+        {"x": 8, "y": 62, "elev": 3.0},
+        {"x": 9, "y": 65, "elev": 8.0},
+        {"x": 10, "y": 73, "elev": 10.0},
+        {"x": 11, "y": 83, "elev": 10.0},
+        {"x": 12, "y": 93, "elev": 11.0},
+        {"x": 13, "y": 104, "elev": 2.0},
+        {"x": 14, "y": 105 }
+    ]
+    },
+    {
+    "id": 9,
+    "idName": "molenberg",
+    "name": "Molenberg",
+    "country": "be",
+    "length": 500,
+    "maxElevation": 14,
+    "avgElevation": 9.8,
+    "descNl": "Een korte maar smalle steile helling waar de kasseien er van ver lijken te zijn ingegooid.",
+    "descEn": "A short but narrow steep hill where the cobbles seem to be paved by throwing them in from a distance.",
+    "coordinates":
+    [
+        {"x": 0, "y": 24, "elev": 10.0},
+        {"x": 1, "y": 34, "elev": 14.0},
+        {"x": 2, "y": 48, "elev": 6.0},
+        {"x": 3, "y": 54, "elev": 1.0},
+        {"x": 4, "y": 55, "elev": 1.0},
+        {"x": 5, "y": 66 }
+    ]
+    }
 ]
